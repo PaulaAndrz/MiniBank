@@ -41,6 +41,13 @@ public class Account {
         balance = scanner.nextInt();
 
     }
+    public void showAccount(){
+        System.out.println( "Numer klienta:" + accountNo +"Imię:"+ accountName +"Nazwisko:"+ accountSurmane + "Stan konta:"  + balance);
+    }
+
+
+
+
 
 
 }
