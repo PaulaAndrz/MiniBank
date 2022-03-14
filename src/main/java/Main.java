@@ -16,7 +16,7 @@ public class Main {
         }
         int inputNumber;
         do {
-            System.out.println("1 search.2.3.4.5.exit");
+            System.out.println("1 search.2.3.4.5 exit");
             System.out.println("Co chcesz zrobić, wprowadz cyfrę");
             inputNumber = scanner.nextInt();
             switch (inputNumber) {
